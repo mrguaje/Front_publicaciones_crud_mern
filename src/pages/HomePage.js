@@ -21,10 +21,10 @@ export function HomePage() {
       <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 bg-zinc-100">
 
         
-      {posts.map(function(post){
-        console.log(post.state);
-         if(post.state==="a"){return <PostCard key={post._id} post={post} />;}
-      })}
+      {posts
+        .filter(post => post.state === "a")
+        .map(post => <PostCard key={post._id} post={post} />)
+      }
 
       </div>
     );

@@ -20,4 +20,4 @@ Consiste en un sitio web donde podemos dar de alta publicaciones, recorrerlas, a
 * Sanchez Augusto: [GitHub](https://github.com/mrguaje)
 
 ### Link al proyecto Deployado 🔗:
-* https://phenomenal-cobbler-6ab0f4.netlify.app/
+* https://63bdcc1c503b150009f026ae--chipper-malabi-078788.netlify.app/
